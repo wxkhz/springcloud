@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wxkhz/springcloud #配置git仓库的地址
+          search-paths: config-file
+server:
+  port: 7006
