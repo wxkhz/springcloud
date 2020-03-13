@@ -7,6 +7,6 @@ public class FeignServiceHystrix implements FeignService{
 
     @Override
     public String helloFeign(String name) {
-        return "hello,"+name+",Feign调用服务error";
+        return "hello,"+name+",Feign调用服务error...";
     }
 }
