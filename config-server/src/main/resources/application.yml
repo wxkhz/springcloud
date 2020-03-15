@@ -8,4 +8,8 @@ spring:
           uri: https://github.com/wxkhz/springcloud #配置git仓库的地址
           search-paths: config-file
 server:
-  port: 7006
+  port: 8006
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
