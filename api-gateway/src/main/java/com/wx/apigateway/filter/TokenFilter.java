@@ -55,7 +55,7 @@ public class TokenFilter extends ZuulFilter {
         if (token == null || token.isEmpty()) {
             currentContext.setSendZuulResponse(false);
             currentContext.setResponseStatusCode(401);
-            currentContext.setResponseBody("token is empty");
+            currentContext.setResponseBody("token is empty。。。。。。。。。。");
         }
         return null;
     }
